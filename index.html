@@ -4,89 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Просоциално поведение</title>
     <style>
-        img {
-            width: 100%;
-        }
-
-        h2 {
-            text-align: center;
-            color: rgb(38, 51, 100);
-        }
-
-        #right-column {
-            padding-top: 200px;
+        #info,
+        #init_1,
+        #question {
+            display: none;
         }
 
         button {
-            background-color: rgb(38, 51, 100);
-            color: white;
-            outline: none;
-            border: none;
-            border-radius: 15px;
-            padding: 20px;
-            display: block;
-            margin: 30px auto 10px;
-            min-width: 300px;
+            display: inline-block;
+            width: 200px;
         }
     </style>
-    <title>Просоциално поведение</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-7" id="image-container">
+            <div id="init">
+                Какво е просоциално поведение?
+            </div>
 
+            <div id="init_1">
+                24-те силни страни
             </div>
-            <div class="col" id="right-column">
-                <h2>Какво виждате на показаното изображение?</h2>
-                <button id="answear-one">
-                </button>
-                <button id="answear-two">
-                </button>
+
+            <div id="info">
+                <h1 id="info-header"></h1>
+                <div id="info-img"></div>
+                <p id="info-text"></p>
+                <div id="info-examples"></div>
             </div>
+
+            <div id="question">
+                <div>Какво виждате на показаната илюстрация?</div>
+                <div id="question-img"></div>
+                <div id="answer-one"></div>
+                <div id="answer-two"></div>
+            </div>
+
+            <button id="back-btn">
+                Назад
+            </button>
+
+            <button id="forward-btn">
+                Напред
+            </button>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script>
-        const data = [
-            {
-                image: '1.png',
-                answears: ['Оценяване на красивото', 'Неоценяване на красивото'],
-                correctAnwear: 'Оценяване на красивото'
-            },
-            {
-                image: '2.png',
-                answears: ['Оценяване на красивото', 'Неоценяване на красивото'],
-                correctAnwear: 'Неоценяване на красивото'
+    <script type="module">
+        import data from './data.js';
+
+        let index = 0;
+
+        function forward() {
+            index++;
+            screenUpdate();
+        }
+
+        function back() {
+            index--;
+            screenUpdate();
+        }
+
+        function screenUpdate() {
+            hideAllScreens();
+
+            switch (data[index].type) {
+                case 'init':
+                    $('#init').css('display', 'block');
+                    break;
+                case 'init_1':
+                    $('#init_1').css('display', 'block');
+                    break;
+                case 'info':
+                    setInfoScreen();
+                    break;
+                case 'question':
+                    setQuestionScreen();
+                    break;
             }
-        ];
-
-        let question = 0;
-
-        function displayData(questionId) {
-            const currentData = data[questionId];
-            const img = `<img src="./images/${currentData.image}" alt="Image" />`
-            $('#image-container').html(img);
-            console.log(currentData);
-
-            $('#answear-one').text(currentData.answears[0]);
-            $('#answear-two').text(currentData.answears[1]);
         }
 
-        function answear(answearIndex) {
-            question++;
-            displayData(question);
+        function hideAllScreens() {
+            $('#init').css('display', 'none');
+            $('#init_1').css('display', 'none');
+            $('#info').css('display', 'none');
+            $('#question').css('display', 'none');
         }
 
-        $(document).ready(function() {
-            $('#answear-one').click(() => answear(0));
-            $('#answear-two').click(() => answear(1));
+        function setInfoScreen() {
+            $('#info').css('display', 'block');
+            
+            const currentData = data[index];
 
-            displayData(question);
-        });
+            let examples = '<ul>';
+
+            for (let i = 0; i < currentData.examples.length; i++) {
+                const element = currentData.examples[i];
+                examples += `<li>${element}</li>`;
+            }
+
+            examples += '</ul>';
+
+            const img = `<img src="${currentData.image}" alt="emotion image">`;
+
+            $('#info-header').text(currentData.title);
+            $('#info-text').text(currentData.text);
+            $('#info-examples').html(examples);
+            $('#info-img').html(img);
+        }
+
+        function setQuestionScreen() {
+            $('#question').css('display', 'block');
+
+            const currentData = data[index];
+
+            const img = `<img src="${currentData.image}" alt="question image">`;
+
+            $('#answer-one').text(currentData.answerOne);
+            $('#answer-two').text(currentData.answerTwo);
+            $('#question-img').html(img);
+        }
+
+        function answerOne() {
+            const currentData = data[index];
+
+            const correct = currentData.correctAnswer;
+
+            if (correct == 'one') {
+                forward();
+            } else {
+                alert('Wrong!');
+            }
+        }
+
+        function answerTwo() {
+            const currentData = data[index];
+
+            const correct = currentData.correctAnswer;
+
+            if (correct == 'two') {
+                forward();
+            } else {
+                alert('Wrong!');
+            }
+        }
+
+        $('#back-btn').on('click', back);
+        $('#forward-btn').on('click', forward);
+        $('#answer-one').on('click', answerOne);
+        $('#answer-two').on('click', answerTwo);
     </script>
 </body>
 </html>
