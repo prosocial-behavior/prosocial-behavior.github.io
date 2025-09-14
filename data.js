@@ -474,6 +474,52 @@ const data = [
         answerTwo: 'Липса на смирение',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/11.jpg',
+        title: 'Смирение',
+        text: 'Да обичаме да се смеем и да се закачаме; да носим усмивки на другите хора; да виждаме светлата страна на нещата; да караме другите да се смеят и усмихват.',
+        examples: [
+            'Да виждаме смешната страна на нещата',
+            'Да обичаме да правим шеги',
+            'Да обичаме да се смеем'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/51.jpg',
+        answerOne: 'Хумор',
+        answerTwo: 'Липса на хумор',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/52.jpg',
+        answerOne: 'Хумор',
+        answerTwo: 'Липса на хумор',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/53.jpg',
+        answerOne: 'Хумор',
+        answerTwo: 'Липса на хумор',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/54.jpg',
+        answerOne: 'Хумор',
+        answerTwo: 'Липса на хумор',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/55.jpg',
+        answerOne: 'Хумор',
+        answerTwo: 'Липса на хумор',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
