@@ -285,7 +285,7 @@ const data = [
         image: 'images/questions/30.jpg',
         answerOne: 'Прошка',
         answerTwo: 'Липса на прошка',
-        correctAnswer: 'two'
+        correctAnswer: 'one'
     },
     {
         type: 'info',
