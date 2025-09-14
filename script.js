@@ -37,7 +37,16 @@ function back() {
         return;
     }
 
-    index--;
+    let indexValue = index - 6;
+    if (indexValue < 0) {
+        indexValue = 0;
+    }
+    
+    if (index == 2) {
+        indexValue = 1;
+    }
+
+    index = indexValue;
     screenUpdate();
 }
 
