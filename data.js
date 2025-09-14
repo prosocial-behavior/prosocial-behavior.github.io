@@ -159,10 +159,38 @@ const data = [
     },
     {
         type: 'question',
-        image: 'images/questions/15.jpg',
-        answerOne: 'Креативност',
-        answerTwo: 'Липса на креативност',
+        image: 'images/questions/16.jpg',
+        answerOne: 'Любопитсвто',
+        answerTwo: 'Липса на любопитсвто',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/17.jpg',
+        answerOne: 'Любопитсвто',
+        answerTwo: 'Липса на любопитсвто',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/18.jpg',
+        answerOne: 'Любопитсвто',
+        answerTwo: 'Липса на любопитсвто',
         correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/19.jpg',
+        answerOne: 'Любопитсвто',
+        answerTwo: 'Липса на любопитсвто',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/20.jpg',
+        answerOne: 'Любопитсвто',
+        answerTwo: 'Липса на любопитсвто',
+        correctAnswer: 'one'
     },
 ];
 
