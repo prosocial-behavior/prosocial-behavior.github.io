@@ -662,6 +662,54 @@ const data = [
         answerTwo: 'Липса на лидерство',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/15.jpg',
+        title: 'Любов',
+        text: 'Да ценим близките взаимоотношения с другите, особено тези, в които има взаимност в споделянето и грижата; да бъдем близо до хората; да ценим приятелите и семейството.',
+        examples: [
+            'Да бъдем добри слушатели',
+            'Да бъдем добри приятели',
+            'Да бъдем надеждни и да се доверяваме на другите',
+            'Да прегръщаме хората, които обичаме',
+            'Да обичаме да сме близо до хората'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/71.jpg',
+        answerOne: 'Любов',
+        answerTwo: 'Липса на любов',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/72.jpg',
+        answerOne: 'Любов',
+        answerTwo: 'Липса на любов',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/73.jpg',
+        answerOne: 'Любов',
+        answerTwo: 'Липса на любов',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/74.jpg',
+        answerOne: 'Любов',
+        answerTwo: 'Липса на любов',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/75.jpg',
+        answerOne: 'Любов',
+        answerTwo: 'Липса на любов',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
