@@ -758,6 +758,52 @@ const data = [
         answerTwo: 'Липса на любов към ученето',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/17.jpg',
+        title: 'Постоянство',
+        text: 'Да завършваме започнатото; да се упорстваме в дадено действие въпреки препятствията; да "довеждаме нещата докрай"; да изпитваме удоволствие от завършването на задачи; да се справяме с нещата дори когато са трудни.',
+        examples: [
+            'Да си казваме "Мога да го направя!", когато нещо е трудно',
+            'Да завършваме това, което сме започнали',
+            'Да обичаме да довеждаме нещата до край'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/81.jpg',
+        answerOne: 'Постоянство',
+        answerTwo: 'Липса на постоянство',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/82.jpg',
+        answerOne: 'Постоянство',
+        answerTwo: 'Липса на постоянство',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/83.jpg',
+        answerOne: 'Постоянство',
+        answerTwo: 'Липса на постоянство',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/84.jpg',
+        answerOne: 'Постоянство',
+        answerTwo: 'Липса на постоянство',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/85.jpg',
+        answerOne: 'Постоянство',
+        answerTwo: 'Липса на постоянство',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
