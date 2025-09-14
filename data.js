@@ -898,6 +898,53 @@ const data = [
         answerTwo: 'Липса на благоразумие',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/19.jpg',
+        title: 'Самоконтрол',
+        text: 'Да регулираме това, което чувстваме и правим; да бъдем дисциплинирани; да контролираме своите апетити и емоции; да намираме баланс в начина, по който се чувстваме и действаме.',
+        examples: [
+            'Да управляваме добре чувствата и действията си',
+            'Да се грижим добре за тялото и ума си',
+            'Да обичаме рутината',
+            'Да бъдем дисциплинирани'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/96.jpg',
+        answerOne: 'Самоконтрол',
+        answerTwo: 'Липса на самоконтрол',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/97.jpg',
+        answerOne: 'Самоконтрол',
+        answerTwo: 'Липса на самоконтрол',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/98.jpg',
+        answerOne: 'Самоконтрол',
+        answerTwo: 'Липса на самоконтрол',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/99.jpg',
+        answerOne: 'Самоконтрол',
+        answerTwo: 'Липса на самоконтрол',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/100.jpg',
+        answerOne: 'Самоконтрол',
+        answerTwo: 'Липса на самоконтрол',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
