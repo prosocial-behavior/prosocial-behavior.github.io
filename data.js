@@ -567,6 +567,53 @@ const data = [
         answerTwo: 'Липса на критично мислене',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/13.jpg',
+        title: 'Доброта',
+        text: 'Да правим услуги и добри дела за другите; да им помагаме; да се грижим за тях; да бъдем щедри и грижовни към себе си, към другите и към света.',
+        examples: [
+            'Да направим нещо хубаво за някого другиго',
+            'Да бъдем щедри и безкористни',
+            'Да помогнем на някого, когато е болен',
+            'Да направим комплимент на някого'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/61.jpg',
+        answerOne: 'Доброта',
+        answerTwo: 'Липса на доброта',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/62.jpg',
+        answerOne: 'Доброта',
+        answerTwo: 'Липса на доброта',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/63.jpg',
+        answerOne: 'Доброта',
+        answerTwo: 'Липса на доброта',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/64.jpg',
+        answerOne: 'Доброта',
+        answerTwo: 'Липса на доброта',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/65.jpg',
+        answerOne: 'Доброта',
+        answerTwo: 'Липса на доброта',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
