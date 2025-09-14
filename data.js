@@ -427,6 +427,53 @@ const data = [
         answerTwo: 'Липса на надежда',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/10.jpg',
+        title: 'Смирение',
+        text: 'Да оставим постиженията ни да говорят сами за себе си; да не се смятаме за по-специални, отколкото сме в действителност. Да осъзнаваме своите силни и слаби страни.',
+        examples: [
+            'Да обръщаме внимание на другите',
+            'Да не се хвалим с постиженията си прекалено много',
+            'Да отдаваме заслуги на другите, когато работим заедно',
+            'Да бъдем скромни'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/46.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/47.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/48.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/49.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/50.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
