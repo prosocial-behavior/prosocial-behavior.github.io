@@ -290,7 +290,7 @@ const data = [
     {
         type: 'info',
         image: 'images/cards/7.jpg',
-        title: 'Смирение',
+        title: 'Благодарност',
         text: 'Да бъдеш осъзнати и благодарни за добрите неща, които се случват; да отделяме време, за да изразим благодарност. Да разпознаваме добрите неща в и извън живота си.',
         examples: [
             'Да казваме "Благодаря"',
@@ -301,36 +301,36 @@ const data = [
     {
         type: 'question',
         image: 'images/questions/31.jpg',
-        answerOne: 'Смирение',
-        answerTwo: 'Липса на смирение',
+        answerOne: 'Благодарност',
+        answerTwo: 'Липса на благодарност',
         correctAnswer: 'one'
     },
     {
         type: 'question',
         image: 'images/questions/32.jpg',
-        answerOne: 'Смирение',
-        answerTwo: 'Липса на смирение',
+        answerOne: 'Благодарност',
+        answerTwo: 'Липса на благодарност',
         correctAnswer: 'one'
     },
     {
         type: 'question',
         image: 'images/questions/33.jpg',
-        answerOne: 'Смирение',
-        answerTwo: 'Липса на смирение',
+        answerOne: 'Благодарност',
+        answerTwo: 'Липса на благодарност',
         correctAnswer: 'two'
     },
     {
         type: 'question',
         image: 'images/questions/34.jpg',
-        answerOne: 'Смирение',
-        answerTwo: 'Липса на смирение',
+        answerOne: 'Благодарност',
+        answerTwo: 'Липса на благодарност',
         correctAnswer: 'two'
     },
     {
         type: 'question',
         image: 'images/questions/35.jpg',
-        answerOne: 'Смирение',
-        answerTwo: 'Липса на смирение',
+        answerOne: 'Благодарност',
+        answerTwo: 'Липса на благодарност',
         correctAnswer: 'one'
     },
     {
@@ -380,6 +380,52 @@ const data = [
         answerOne: 'Честност',
         answerTwo: 'Липса на честност',
         correctAnswer: 'two'
+    },
+    {
+        type: 'info',
+        image: 'images/cards/9.jpg',
+        title: 'Надежда',
+        text: 'Да очакваме най-доброто от бъдещето и да работим усилено, за да го постигнем. Да вярваме, че едно добро бъдеще е нещо, което можем да постигнем; да бъдем позитивни',
+        examples: [
+            'Да очакваме най-доброто',
+            'Да бъдем оптимистични',
+            'Да вярваме, че нещата могат да се подобрят в трудни моменти'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/41.jpg',
+        answerOne: 'Надежда',
+        answerTwo: 'Липса на надежда',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/42.jpg',
+        answerOne: 'Надежда',
+        answerTwo: 'Липса на надежда',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/43.jpg',
+        answerOne: 'Надежда',
+        answerTwo: 'Липса на надежда',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/44.jpg',
+        answerOne: 'Надежда',
+        answerTwo: 'Липса на надежда',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/45.jpg',
+        answerOne: 'Надежда',
+        answerTwo: 'Липса на надежда',
+        correctAnswer: 'one'
     },
 ];
 
