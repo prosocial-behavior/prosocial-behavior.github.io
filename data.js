@@ -900,7 +900,7 @@ const data = [
     },
     {
         type: 'info',
-        image: 'images/cards/19.jpg',
+        image: 'images/cards/20.jpg',
         title: 'Самоконтрол',
         text: 'Да регулираме това, което чувстваме и правим; да бъдем дисциплинирани; да контролираме своите апетити и емоции; да намираме баланс в начина, по който се чувстваме и действаме.',
         examples: [
@@ -947,7 +947,7 @@ const data = [
     },
     {
         type: 'info',
-        image: 'images/cards/20.jpg',
+        image: 'images/cards/21.jpg',
         title: 'Социална интелигентност',
         text: 'Да сме наясно с мотивите и чувствата на другите и на себе си; да знаем какво да правим, за да се впишем в различни социални ситуации; да знаем какво движи другите хора; да разпознаваме собствените си емоции и емоциите на другите.',
         examples: [
@@ -991,6 +991,51 @@ const data = [
         answerOne: 'Социална интелигентност',
         answerTwo: 'Липса на социална интелигентност',
         correctAnswer: 'one'
+    },
+    {
+        type: 'info',
+        image: 'images/cards/22.jpg',
+        title: 'Духовност',
+        text: 'Да имаме ясни убеждения за по-висшата цел и смисъла на вселената; да знаем къде се намираме в по-голямата схема; да имаме вярвания за смисъла на живота, които оформят поведението ни и ни носят утеха; да намираме цел в живота.',
+        examples: [
+            'Да усещаме силна връзка с другите хора',
+            'Да вярваме в нещо по-голямо от себе си'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/106.jpg',
+        answerOne: 'Духовност',
+        answerTwo: 'Липса на духовност',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/107.jpg',
+        answerOne: 'Духовност',
+        answerTwo: 'Липса на духовност',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/108.jpg',
+        answerOne: 'Духовност',
+        answerTwo: 'Липса на духовност',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/109.jpg',
+        answerOne: 'Духовност',
+        answerTwo: 'Липса на духовност',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/110.jpg',
+        answerOne: 'Духовност',
+        answerTwo: 'Липса на духовност',
+        correctAnswer: 'two'
     },
 ];
 
