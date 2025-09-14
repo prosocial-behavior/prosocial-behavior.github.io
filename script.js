@@ -2,6 +2,27 @@ import data from './data.js';
 
 let index = 0;
 
+$(document).ready(function() {
+    function setImage() {
+        const screenWidth = $(window).width();
+        let img = "";
+
+        if (screenWidth < 720) {
+            img = '<img src="images/char_strengths_long.jpg" alt="Character strengths image" style="width: 100%;">';
+        } else {
+            img = '<img src="images/char_strengths_short.jpg" alt="Character strengths image" style="width: 100%;">';
+        }
+
+        $('#init_1-img').html(img);
+    }
+
+    setImage();
+
+    $(window).resize(function() {
+        setImage();
+    });
+});
+
 function forward() {
     if (index == data.length - 1) {
         return;
