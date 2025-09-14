@@ -3,11 +3,19 @@ import data from './data.js';
 let index = 0;
 
 function forward() {
+    if (index == data.length) {
+        return;
+    }
+
     index++;
     screenUpdate();
 }
 
 function back() {
+    if (index == 0) {
+        return;
+    }
+
     index--;
     screenUpdate();
 }
@@ -15,17 +23,27 @@ function back() {
 function screenUpdate() {
     hideAllScreens();
 
+    if (index == 0) {
+        $('#back-btn').css('display', 'none');
+    } else {
+        $('#back-btn').css('display', 'inline-block');
+    }
+
     switch (data[index].type) {
         case 'init':
+            showNavButtons();
             $('#init').css('display', 'block');
             break;
         case 'init_1':
+            showNavButtons();
             $('#init_1').css('display', 'block');
             break;
         case 'info':
+            showNavButtons();
             setInfoScreen();
             break;
         case 'question':
+            hideNavButtons();
             setQuestionScreen();
             break;
     }
@@ -36,6 +54,14 @@ function hideAllScreens() {
     $('#init_1').css('display', 'none');
     $('#info').css('display', 'none');
     $('#question').css('display', 'none');
+}
+
+function hideNavButtons() {
+    $('#navigation-btns').css('display', 'none');
+}
+
+function showNavButtons() {
+    $('#navigation-btns').css('display', 'block');
 }
 
 function setInfoScreen() {
@@ -80,7 +106,7 @@ function answerOne() {
     if (correct == 'one') {
         forward();
     } else {
-        alert('Wrong!');
+        alert('Опитай отново シ');
     }
 }
 
@@ -92,7 +118,7 @@ function answerTwo() {
     if (correct == 'two') {
         forward();
     } else {
-        alert('Wrong!');
+        alert('Опитай отново シ');
     }
 }
 
