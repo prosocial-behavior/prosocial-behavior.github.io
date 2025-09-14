@@ -710,6 +710,54 @@ const data = [
         answerTwo: 'Липса на любов',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/16.jpg',
+        title: 'Любов към ученето',
+        text: 'Да усвояваме нови умения, теми и области на знание, сами или формално; свързано с любопитството, но отиващо по-далеч, като описва склонността да добавяме систематично към това, което знаем; да се интересуваме как работят нещата и да искаме да научим повече.',
+        examples: [
+            'Да задаваме много въпроси',
+            'Да обичаме да решаваме проблеми',
+            'Да четем много книги',
+            'Да казваме "кажи ми повече за това, моля"',
+            'Да бъдем любопитни и заинтересовани от света'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/76.jpg',
+        answerOne: 'Любов към ученето',
+        answerTwo: 'Липса на любов към ученето',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/77.jpg',
+        answerOne: 'Любов към ученето',
+        answerTwo: 'Липса на любов към ученето',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/78.jpg',
+        answerOne: 'Любов към ученето',
+        answerTwo: 'Липса на любов към ученето',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/79.jpg',
+        answerOne: 'Любов към ученето',
+        answerTwo: 'Липса на любов към ученето',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/80.jpg',
+        answerOne: 'Любов към ученето',
+        answerTwo: 'Липса на любов към ученето',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
