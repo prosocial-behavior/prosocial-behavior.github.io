@@ -3,7 +3,7 @@ import data from './data.js';
 let index = 0;
 
 function forward() {
-    if (index == data.length) {
+    if (index == data.length - 1) {
         return;
     }
 
