@@ -804,6 +804,53 @@ const data = [
         answerTwo: 'Липса на постоянство',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/18.jpg',
+        title: 'Перспектива',
+        text: 'Да можем да даваме мъдри съвети на другите; да имаме начини да гледаме на света, които имат смисъл за нас и за другите; да мислим за повече от собствените си идеи.',
+        examples: [
+            'Да мислим за всички детайли, преди да вземем решение',
+            'Да даваме добър съвет на другите',
+            'Да бъдем добри слушатели',
+            'Да проявяваме мъдрост'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/86.jpg',
+        answerOne: 'Перспектива',
+        answerTwo: 'Липса на перспектива',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/87.jpg',
+        answerOne: 'Перспектива',
+        answerTwo: 'Липса на перспектива',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/88.jpg',
+        answerOne: 'Перспектива',
+        answerTwo: 'Липса на перспектива',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/89.jpg',
+        answerOne: 'Перспектива',
+        answerTwo: 'Липса на перспектива',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/90.jpg',
+        answerOne: 'Перспектива',
+        answerTwo: 'Липса на перспектива',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
