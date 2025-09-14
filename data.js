@@ -520,6 +520,53 @@ const data = [
         answerTwo: 'Липса на хумор',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/12.jpg',
+        title: 'Критично мислене',
+        text: 'Да премисляме нещата и да ги разглеждаме от всички страни; да не правим прибързани заключения; да можем да променим мнението си в светлината на доказателства; да претегляме всички доказателства справедливо.',
+        examples: [
+            'Да изслушваме какво мислят другите хора',
+            'Да мислим критично',
+            'Да разглеждаме нещата от всички страни, а не само от нашата',
+            'Да не правим прибързани заключения'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/56.jpg',
+        answerOne: 'Критично мислене',
+        answerTwo: 'Липса на критично мислене',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/57.jpg',
+        answerOne: 'Критично мислене',
+        answerTwo: 'Липса на критично мислене',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/58.jpg',
+        answerOne: 'Критично мислене',
+        answerTwo: 'Липса на критично мислене',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/59.jpg',
+        answerOne: 'Критично мислене',
+        answerTwo: 'Липса на критично мислене',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/60.jpg',
+        answerOne: 'Критично мислене',
+        answerTwo: 'Липса на критично мислене',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
