@@ -1037,6 +1037,52 @@ const data = [
         answerTwo: 'Липса на духовност',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/23.jpg',
+        title: 'Работа в екип',
+        text: 'Да работим добре като член на група или екип; да бъдем лоялни към групата; да вършим своята част; да бъдем част от екипа и да не се придържаме твърде стриктно към собствените си идеи.',
+        examples: [
+            'Да работим добре с другите',
+            'Да бъдем добри комуникатори',
+            'Да бъдем подкрепящи, полезни и лоялни'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/111.jpg',
+        answerOne: 'Работа в екип',
+        answerTwo: 'Липса на работа в екип',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/112.jpg',
+        answerOne: 'Работа в екип',
+        answerTwo: 'Липса на работа в екип',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/113.jpg',
+        answerOne: 'Работа в екип',
+        answerTwo: 'Липса на работа в екип',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/114.jpg',
+        answerOne: 'Работа в екип',
+        answerTwo: 'Липса на работа в екип',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/115.jpg',
+        answerOne: 'Работа в екип',
+        answerTwo: 'Липса на работа в екип',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
