@@ -851,6 +851,53 @@ const data = [
         answerTwo: 'Липса на перспектива',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/19.jpg',
+        title: 'Благоразумие',
+        text: 'Да бъдем внимателни относно изборите си; да не поемаме ненужни рискове; да не казваме или правим неща, за които по-късно можем да съжаляваме; да мислим преди да действаме.',
+        examples: [
+            'Да не поемаме ненужни рискове',
+            'Да планираме предварително',
+            'Да бъдем много внимателни',
+            'Да мислим за дългосрочните последствия'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/91.jpg',
+        answerOne: 'Благоразумие',
+        answerTwo: 'Липса на благоразумие',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/92.jpg',
+        answerOne: 'Благоразумие',
+        answerTwo: 'Липса на благоразумие',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/93.jpg',
+        answerOne: 'Благоразумие',
+        answerTwo: 'Липса на благоразумие',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/94.jpg',
+        answerOne: 'Благоразумие',
+        answerTwo: 'Липса на благоразумие',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/95.jpg',
+        answerOne: 'Благоразумие',
+        answerTwo: 'Липса на благоразумие',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
