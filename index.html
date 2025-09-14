@@ -33,12 +33,24 @@
             #back-btn {
                 display: none;
             }
+
+            div#navigation-btns button {
+                outline: none;
+                border: none;
+                color: white;
+                background-color: #1b72c2;
+                font-size: 24px;
+                font-weight: bold;
+                border-radius: 30px;
+                width: 60px;
+                height: 60px;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div id="init">
-                <h1 class="center">
+                <h1 class="center" style="margin-bottom: 35px;">
                     Какво представляват силните страни на характера?
                 </h1>
                 <ul class="list-group">
@@ -68,13 +80,13 @@
                 <button id="answer-two" class="btn btn-secondary btn-lg btn-block"></button>
             </div>
 
-            <div id="navigation-btns">
+            <div id="navigation-btns" style="margin-top: 20px;">
                 <button id="back-btn">
-                    Назад
+                    ←
                 </button>
     
                 <button id="forward-btn">
-                    Напред
+                    →
                 </button>
             </div>
         </div>
