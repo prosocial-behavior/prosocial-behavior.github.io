@@ -67,6 +67,10 @@ function screenUpdate() {
             hideNavButtons();
             setQuestionScreen();
             break;
+        case 'end':
+            hideAllScreens();
+            showEndScreen();
+            break;
     }
 }
 
@@ -75,6 +79,10 @@ function hideAllScreens() {
     $('#init_1').css('display', 'none');
     $('#info').css('display', 'none');
     $('#question').css('display', 'none');
+}
+
+function showEndScreen() {
+    $('#end').css('display', 'block');
 }
 
 function hideNavButtons() {

@@ -1129,6 +1129,9 @@ const data = [
         answerTwo: 'Липса на Жар/Плам',
         correctAnswer: 'one'
     },
+    {
+        type: 'end'
+    }
 ];
 
 export default data;
