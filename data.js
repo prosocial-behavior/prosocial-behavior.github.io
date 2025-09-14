@@ -287,6 +287,100 @@ const data = [
         answerTwo: 'Липса на прошка',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/7.jpg',
+        title: 'Смирение',
+        text: 'Да бъдеш осъзнати и благодарни за добрите неща, които се случват; да отделяме време, за да изразим благодарност. Да разпознаваме добрите неща в и извън живота си.',
+        examples: [
+            'Да казваме "Благодаря"',
+            'Да бъдем признателни',
+            'Да забелязваме малките хубави неща в живота'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/31.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/32.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/33.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/34.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/35.jpg',
+        answerOne: 'Смирение',
+        answerTwo: 'Липса на смирение',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'info',
+        image: 'images/cards/8.jpg',
+        title: 'Честност',
+        text: 'Да казваме на истината и да поемаме отговорност за гласа и действията си.',
+        examples: [
+            'Да казваме истината',
+            'Да казваме това, което мислим',
+            'Да спазваме обещанията си към другите',
+            'Да си признаваме, когато грешим',
+            'Да действаме с почтеност'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/36.jpg',
+        answerOne: 'Честност',
+        answerTwo: 'Липса на честност',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/37.jpg',
+        answerOne: 'Честност',
+        answerTwo: 'Липса на честност',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/38.jpg',
+        answerOne: 'Честност',
+        answerTwo: 'Липса на честност',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/39.jpg',
+        answerOne: 'Честност',
+        answerTwo: 'Липса на честност',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/40.jpg',
+        answerOne: 'Честност',
+        answerTwo: 'Липса на честност',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
