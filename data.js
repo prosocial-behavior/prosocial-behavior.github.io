@@ -945,6 +945,53 @@ const data = [
         answerTwo: 'Липса на самоконтрол',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/20.jpg',
+        title: 'Социална интелигентност',
+        text: 'Да сме наясно с мотивите и чувствата на другите и на себе си; да знаем какво да правим, за да се впишем в различни социални ситуации; да знаем какво движи другите хора; да разпознаваме собствените си емоции и емоциите на другите.',
+        examples: [
+            'Да сме наясно с мислите и чувствата си и на другите',
+            'Да знаем как да направим другите щастливи',
+            'Да се отнасяме към другите така, както те биха искали',
+            'Да караме всеки да се чувства комфортно и ценен'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/101.jpg',
+        answerOne: 'Социална интелигентност',
+        answerTwo: 'Липса на социална интелигентност',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/102.jpg',
+        answerOne: 'Социална интелигентност',
+        answerTwo: 'Липса на социална интелигентност',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/103.jpg',
+        answerOne: 'Социална интелигентност',
+        answerTwo: 'Липса на социална интелигентност',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/104.jpg',
+        answerOne: 'Социална интелигентност',
+        answerTwo: 'Липса на социална интелигентност',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/105.jpg',
+        answerOne: 'Социална интелигентност',
+        answerTwo: 'Липса на социална интелигентност',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
