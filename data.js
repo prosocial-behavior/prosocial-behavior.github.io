@@ -1083,6 +1083,52 @@ const data = [
         answerTwo: 'Липса на работа в екип',
         correctAnswer: 'two'
     },
+    {
+        type: 'info',
+        image: 'images/cards/24.jpg',
+        title: 'Жар/Плам',
+        text: 'Да подхождаме към живота с вълнение и енергия; да не правим нещата наполовина или без желание; да живеем живота като приключение; да се чувстваме живи и активни; да показваме вълнение за живота.',
+        examples: [
+            'Да живеем живота като приключение',
+            'Да сме супер активни и енергични',
+            'Да бъдем ентусиазирани'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/116.jpg',
+        answerOne: 'Жар/Плам',
+        answerTwo: 'Липса на Жар/Плам',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/117.jpg',
+        answerOne: 'Жар/Плам',
+        answerTwo: 'Липса на Жар/Плам',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/118.jpg',
+        answerOne: 'Жар/Плам',
+        answerTwo: 'Липса на Жар/Плам',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/119.jpg',
+        answerOne: 'Жар/Плам',
+        answerTwo: 'Липса на Жар/Плам',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/120.jpg',
+        answerOne: 'Жар/Плам',
+        answerTwo: 'Липса на Жар/Плам',
+        correctAnswer: 'one'
+    },
 ];
 
 export default data;
