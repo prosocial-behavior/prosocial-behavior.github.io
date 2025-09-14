@@ -614,6 +614,54 @@ const data = [
         answerTwo: 'Липса на доброта',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/14.jpg',
+        title: 'Лидерство',
+        text: 'Да насърчаваме групата, на която сме член, да върши нещата; да поддържаме добри взаимоотношения в групата; да организираме групови дейности и да се грижим те да се случват.',
+        examples: [
+            'Да насърчаваме и мотивираме другите',
+            'Да даваме добър пример',
+            'Да запалваме ентусиазъм у другите за дадена дейност',
+            'Да изслушваме мненията и чувствата на членовете на групата',
+            'Да бъдем добри организатори'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/66.jpg',
+        answerOne: 'Лидерство',
+        answerTwo: 'Липса на лидерство',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/67.jpg',
+        answerOne: 'Лидерство',
+        answerTwo: 'Липса на лидерство',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/68.jpg',
+        answerOne: 'Лидерство',
+        answerTwo: 'Липса на лидерство',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/69.jpg',
+        answerOne: 'Лидерство',
+        answerTwo: 'Липса на лидерство',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/70.jpg',
+        answerOne: 'Лидерство',
+        answerTwo: 'Липса на лидерство',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
