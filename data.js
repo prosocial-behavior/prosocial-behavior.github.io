@@ -192,6 +192,101 @@ const data = [
         answerTwo: 'Липса на любопитсвто',
         correctAnswer: 'one'
     },
+    {
+        type: 'info',
+        image: 'images/cards/5.jpg',
+        title: 'Справедливост',
+        text: 'Да се ​​отнасяме към всички хора по един и същи начин според понятията за справедливост и правосъдие; да не позволяваме на чувствата да повлияят на решенията за другите; да даваме на всеки честен шанс и възможност.',
+        examples: [
+            'Да се борим за равенство',
+            'Да се застъпваме за другите, когато е необходимо',
+            'Да вярваме, че всеки е добър в нещо',
+            'Да се отнасяме с всички еднакво',
+            'Да даваме шанс, когато е необходимо'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/21.jpg',
+        answerOne: 'Справедливост',
+        answerTwo: 'Несправедливост',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/22.jpg',
+        answerOne: 'Справедливост',
+        answerTwo: 'Несправедливост',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/23.jpg',
+        answerOne: 'Справедливост',
+        answerTwo: 'Несправедливост',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/24.jpg',
+        answerOne: 'Справедливост',
+        answerTwo: 'Несправедливост',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/25.jpg',
+        answerOne: 'Справедливост',
+        answerTwo: 'Несправедливост',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'info',
+        image: 'images/cards/6.jpg',
+        title: 'Прошка',
+        text: 'Да прощаваме на онези, които са сгрешили; да приемаме недостатъците на другите; да даваме на хората втори шанс вместо да не сме отмъстителни. Да прощаваме, когато някой е направил грешка.',
+        examples: [
+            'Да сме мили дори когато някой е направил грешка',
+            'Да се оптваме да не се ядосваме',
+            'Да даваме втори шанс',
+            'Да не таим злоба'
+        ]
+    },
+    {
+        type: 'question',
+        image: 'images/questions/26.jpg',
+        answerOne: 'Прошка',
+        answerTwo: 'Липса на прошка',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/27.jpg',
+        answerOne: 'Прошка',
+        answerTwo: 'Липса на прошка',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/28.jpg',
+        answerOne: 'Прошка',
+        answerTwo: 'Липса на прошка',
+        correctAnswer: 'two'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/29.jpg',
+        answerOne: 'Прошка',
+        answerTwo: 'Липса на прошка',
+        correctAnswer: 'one'
+    },
+    {
+        type: 'question',
+        image: 'images/questions/30.jpg',
+        answerOne: 'Прошка',
+        answerTwo: 'Липса на прошка',
+        correctAnswer: 'two'
+    },
 ];
 
 export default data;
